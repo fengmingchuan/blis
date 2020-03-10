@@ -3,6 +3,7 @@ package cn.blibli.bli.entity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.springframework.data.annotation.Id;
 
 import javax.persistence.Entity;
 import java.util.Date;
@@ -11,6 +12,7 @@ import java.util.Date;
 @NoArgsConstructor
 @Entity
 public class User {
+    @Id
     private Long user_id;
 
     private String user_name;
