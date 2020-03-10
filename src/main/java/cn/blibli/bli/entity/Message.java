@@ -4,10 +4,12 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import javax.persistence.Entity;
 import java.util.Date;
 @Getter
 @Setter
 @NoArgsConstructor
+@Entity
 public class Message {
     private Long message_id;
 
