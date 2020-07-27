@@ -6,5 +6,11 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 
-public interface UserDao extends JpaRepository<User,Long> {
+public interface UserDao   {
+    /*\
+    * @autn fmc
+    * @Data 2020.7.27
+    * */
+    void  getinfo();//查询用户信息
+
 }
